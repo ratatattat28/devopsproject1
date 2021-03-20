@@ -1,7 +1,7 @@
 pipeline {
   environment {
-      registery = "ratatattat28/nginx-frontend"
-      registeryCredential = 'dockerhub_id'
+      registry = "ratatattat28/nginx-frontend"
+      registryCredential = 'dockerhub_id'
       dockerImage = ''
   }
   agent any
